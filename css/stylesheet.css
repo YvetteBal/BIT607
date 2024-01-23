@@ -1,0 +1,489 @@
+/* Universal Box Styling */
+
+*{
+    box-sizing:border-box;
+}
+
+
+
+/* Header Styling */
+
+.logo {
+    float:left;
+    width: 150px; 
+    height:150px;
+       
+}
+
+
+
+/* Nav Bar Styling */
+.nav {
+    overflow:hidden;
+    background-color:#035B73;
+    position:sticky;
+    width:100%
+
+
+
+}
+
+.nav a {
+    float:left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    background-color:white;
+    color:#035B73;
+}
+
+/*footer style */
+
+footer {
+    background-color:white;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+p4 {
+    font-family: "Verdana";
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+/* all page Styling */
+
+.bottom {
+
+    background-color:#035B73;
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+    overflow: auto;
+}
+
+.bottomlogo {
+    position: center;
+    background-color:#035B73;
+    display: inline-block;
+    width: 40%;
+    padding: 20px 100px;
+
+}
+
+.contact {
+
+    position: right;
+    background-color:#035B73;
+    display: inline-block;
+    padding: 12px;
+    width: 60%;
+
+
+}
+
+h1 {
+    color: white;
+    position: center;
+    font-family: 'Montaga';
+    font-size: 16px;
+}
+
+p1 {
+    color: white;
+    position: center;
+    font-family: 'Montaga';
+    font-size: 14px;
+}
+
+.bottomlogo {
+
+    float: left;
+
+
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    
+}
+
+p2 {
+    font-family: 'Montaga';
+    font-size: 16px;
+}
+
+
+/* Home Page Styling */
+
+
+.top {
+    padding: 30px 20px;
+    width: 100%;
+   
+}
+
+.divleft {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 12px;
+    overflow: auto;
+
+}
+
+
+
+.mission2 {
+    display: block;
+    width: 50%;
+    padding: 12px;
+    overflow: auto;
+    float: right;
+
+}
+
+.homeimg {
+    margin: 20px;
+    width:300px;
+    height:200px;
+    border-radius: 8px;
+    
+
+}
+
+.foodoffering {
+    padding: 30px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.food {
+    margin: 20px;
+    width:250px;
+    height:175px;
+    border-radius: 8px;
+
+}
+
+.gallery {
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+
+
+
+.button {
+    width: 30%;
+    float: left;
+    padding: 100px 30px;
+    overflow: auto;
+
+}
+
+.button a{
+    
+    background-color:#035B73;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    margin: 10;
+    border: 2px solid darkolivegreen;
+    width: 300px;
+    
+}
+
+.button a:hover{
+    background-color: white;
+    color:#035B73;
+    
+}
+
+.p3 {
+    font-family: 'Montaga';
+    font-size: 12px;
+    text-align:left;
+    padding: 20px;
+}
+
+.openinghours {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 12px;
+    overflow: auto;
+
+}
+
+.restaurantimg {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 12px;
+    overflow: auto;
+
+}
+
+.hours {
+    display: block;
+    width: 40%;
+    float: right;
+    padding: 50px 60px;
+    overflow: auto;
+
+}
+
+.hours a{
+    
+    background-color:#035B73;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    margin: 10;
+    border: 2px solid darkolivegreen;
+    width: 300px;
+    
+}
+
+.hours a:hover{
+    background-color: white;
+    color:#035B73;
+    
+}
+
+/*styling for contact page */
+
+.half {display: block;
+    width: 40%;
+    float: left;
+    padding: 12px;
+    overflow: auto;
+}
+
+/*styling for reservations page */
+
+#googleform {
+    width:50%;
+    padding:15px;
+    overflow: auto;
+    margin: auto;
+    border: solid 1px;
+
+}
+
+.reservation {
+    float: left;
+    width:33%;
+    padding:12px;
+    overflow: auto;
+}
+
+#viewbooking {
+
+    padding: 30px 20px;
+    width: 100%;
+
+}
+
+#viewbooking form {
+
+    padding: 10px;
+    float: center;
+    font-family: 'Montaga';
+    font-size: 16px;
+
+}
+
+#viewbooking input[type=submit] {
+    background-color: #375A44;
+    border-radius: 8px;
+    border:none;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Montaga';
+    font-size: 16px;
+
+}
+
+/*styling for menu */
+
+#menu {
+    float: center;
+    padding: 30px;
+}
+
+#menu a{
+    background-color:#035B73;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    border: 2px solid darkolivegreen;
+    width: 300px;
+    margin: 20px;
+
+}
+
+#menu a:hover{
+    background-color: white;
+    color:#035B73;
+    
+
+}
+
+
+/* mobile styling */
+
+@media screen and (max-width:600px) {
+
+    .divleft {
+        width: 100%;
+        float: center;
+    }
+
+    .mission2 {
+        width: 100%;
+        float: center;
+    }
+
+    .gallery {
+        width: 100%;
+        float: center;
+    }
+
+    .button {
+        width: 100%;
+        float: center;
+    }
+
+    .hoursimage {
+        width: 100%;
+        float: center;
+    }
+    .hours {
+        width: 100%;
+        float: center;
+    }
+
+    .bottomlogo {
+        width: 100%;
+        float: center;
+    }
+
+    .contact  {
+        width: 100%;
+        float: center;
+    }
+
+    .reservation{
+        width: 100%;
+        float: center;
+    }
+
+    #googleform {
+        width:90%;
+    }
+    
+    .half {
+        width: 100%;
+    }
+
+
+
+
+}
+
+/*/ Employee page styling /*/
+
+
+
+  .container1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 4px;
+
+  }
+  
+  .table-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid darkolivegreen;
+  }
+  
+  .heading {
+    background-color: #035B73;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montaga';
+    font-size: 16px;
+  }
+
+  .table-heading {
+
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+
+  }
+  
+  
+  .row-item {
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montaga';
+    font-size: 16px;
+  }
+  
+  .row-item:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+  }
+  
