@@ -1,0 +1,4 @@
+AuthName "Secure directory"
+AuthUserFile ".htppassword"
+AuthType Basic
+require valid-user
